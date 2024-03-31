@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/01'))
 
 app.get("*",(req,res)=>{
 
-    res.sendFile( __dirname + "/index.html");
+    res.sendFile( __dirname + "/test.txt");
 
 })
 

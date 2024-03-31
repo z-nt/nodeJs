@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid red ;
+            width: 400px;
+            height: 400px;
+            position: relative;
+            margin: 5rem auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1 id="title" >hello </h1>
+        <button id="button" >add</button>
+        <p id="para">this is para</p>
+       
+    </div>
+
+
+
+    <script >
+              console.log("asdfs");
+
+const title = document.getElementById("title");
+const input = document.getElementById("input").value;
+var para = document.getElementById("para");
+const btn = document.getElementById("button");
+btn.addEventListener("click",()=>{
+    title.innerHTML = input;
+    console.log(title.innerHTML);
+})
+    
+
+
+    </script>
+</body>
+</html>
